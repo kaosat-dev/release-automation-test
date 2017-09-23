@@ -14,7 +14,8 @@
     "release-major": "git checkout master; git pull origin master; npm version major",
     "release-dry-run": "npm run release -- --dry-run",
     "prebump": "echo 9.9.9; npm test",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prechangelog":"echo 'foo'"
   },
   "author": "Mark 'kaosat-dev' Moissette",
   "license": "MIT",
