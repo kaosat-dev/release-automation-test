@@ -1,6 +1,6 @@
 {
   "name": "release-automation-test",
-  "version": null,
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "standard-version": {
     "scripts": {
-      "prebump": "npm test"
+      "__prebump": "npm test"
     }
   }
 }
