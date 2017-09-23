@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.0.7"></a>
+## [0.0.7](https://github.com/kaosat-dev/release-automation-test/compare/v0.0.0...v0.0.7) (2017-09-23)
+
+
+
 <a name=""></a>
 # [](https://github.com/kaosat-dev/release-automation-test/compare/v0.0.5...v) (2017-09-23)
 
