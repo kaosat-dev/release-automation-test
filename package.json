@@ -1,6 +1,6 @@
 {
   "name": "release-automation-test",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "release-dry-run": "npm run release -- --dry-run",
     "prebump": "echo 9.9.9; npm test",
     "release": "standard-version",
-    "prechangelog":"echo 'foo'"
+    "prechangelog": "echo 'foo'"
   },
   "author": "Mark 'kaosat-dev' Moissette",
   "license": "MIT",
