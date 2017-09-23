@@ -1,15 +1,15 @@
 {
   "name": "release-automation-test",
-  "version": null,
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js",
     "build-docs": "./node_modules/.bin/jsdoc -c jsdoc.json",
-    "preversion": "npm test",
-    "version": "git add -A ",
-    "postversion": "git push origin master && git push origin master --tags",
-    "release-patch": "git checkout master; git pull origin master; npm version patch",
+    "__preversion": "npm test",
+    "__version": "git add -A ",
+    "__postversion": "git push origin master && git push origin master --tags",
+    "__release-patch": "git checkout master; git pull origin master; npm version patch",
     "release-dry-run": "npm run release -- --dry-run",
     "release": "git add -A && standard-version"
   },
