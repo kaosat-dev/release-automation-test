@@ -1,6 +1,6 @@
 {
   "name": "release-automation-test",
-  "version": "0.0.5",
+  "version": null,
   "description": "",
   "main": "index.js",
   "scripts": {
