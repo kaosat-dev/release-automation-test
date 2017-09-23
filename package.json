@@ -10,17 +10,19 @@
     "version": "git add -A ",
     "postversion": "git push origin master && git push origin master --tags",
     "release-patch": "git checkout master; git pull origin master; npm version patch",
-    "release-minor": "git checkout master; git pull origin master; npm version minor",
-    "release-major": "git checkout master; git pull origin master; npm version major",
     "release-dry-run": "npm run release -- --dry-run",
-    "prebump": "echo 9.9.9; npm test",
-    "release": "standard-version",
-    "prechangelog": "echo 'foo'"
+    "release": "git add -A && standard-version"
   },
   "author": "Mark 'kaosat-dev' Moissette",
   "license": "MIT",
   "devDependencies": {
     "standard-version": "^4.2.0",
     "tape": "^4.8.0"
+  },
+  "standard-version": {
+    "scripts": {
+      "prebump": "npm test",
+      "prechangelog": "echo 'foo'"
+    }
   }
 }
