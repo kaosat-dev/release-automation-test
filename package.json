@@ -21,7 +21,7 @@
   },
   "standard-version": {
     "scripts": {
-      "__prebump": "npm test"
+      "prebump": "npm test"
     }
   }
 }
