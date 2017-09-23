@@ -12,6 +12,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 
+<a name=""></a>
+# [](https://github.com/kaosat-dev/release-automation-test/compare/v0.0.4...v) (2017-09-23)
+
+
+
 <a name="0.0.4"></a>
 ## [0.0.4](https://github.com/kaosat-dev/release-automation-test/compare/v0.0.3...v0.0.4) (2017-09-23)
 
