@@ -1,6 +1,6 @@
 {
   "name": "release-automation-test",
-  "version": null,
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,8 @@
   "author": "Mark 'kaosat-dev' Moissette",
   "license": "MIT",
   "devDependencies": {
-    "standard-version": "^4.2.0",
-    "tape": "^4.8.0"
+    "tape": "^4.8.0",
+    "standard-version": "^4.2.0"
   },
   "standard-version": {
     "scripts": {
