@@ -11,7 +11,7 @@
     "__postversion": "git push origin master && git push origin master --tags",
     "__release-patch": "git checkout master; git pull origin master; npm version patch",
     "release-dry-run": "npm run release -- --dry-run",
-    "release": "git add -A && standard-version"
+    "release": "git checkout master; git pull origin master && standard-version && git push --follow-tags origin master"
   },
   "author": "Mark 'kaosat-dev' Moissette",
   "license": "MIT",
